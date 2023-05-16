@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Map of Gulf of Guinea</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v6.6.1/css/ol.css" type="text/css">
+    <style>
+      .ol-zoomslider { /* hide the zoom slider */
+        display: none;
+      }
+      #info { /* add a div to display information about the clicked feature */
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 5px;
+      }
+      #map {
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://openlayers.org/en/v6.6.1/build/ol.js"></script>
+    <script src="/js/map.js"></script>
+  </body>
+</html>
